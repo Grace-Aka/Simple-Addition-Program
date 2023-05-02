@@ -44,12 +44,10 @@ input {
     cursor: pointer;
 }
 
-.result {
-    font-weight: 600;
-    font-size: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    text-align: center;
+input:focus {
+    border-color:hotpink;
+    background-color: beige;
+    outline: none;
 }
 
 .btn {
@@ -58,6 +56,15 @@ input {
     width: 6rem;
     border-color:rgba(0, 139, 139, 0.452) ;
     border-radius:10px;
+    margin-top: 1rem;
     margin-left: 14rem;
     cursor: pointer;
 } 
+
+.result {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
